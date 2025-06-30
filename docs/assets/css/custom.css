@@ -1,88 +1,63 @@
-/* === ⚙️ ROBOTIC DARK MODE BACKGROUND === */
+/* 🌌 Static Black Robotic Background */
 body {
-  background: url('https://i.gifer.com/7VE.gif') no-repeat center center fixed;
+  background: url('https://wallpapercave.com/wp/wp11804643.jpg') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   font-family: 'Fira Code', 'Courier New', Courier, monospace;
-  color: #f1f1f1;
-  overflow-x: hidden;
+  color: #ffffff;
+  padding: 0;
 }
 
-/* === 🪟 GLOWING CONTENT CONTAINER === */
+/* 🪟 Content Panel */
 .main-content, .wrapper, .container, .page-content {
-  background: rgba(0, 0, 0, 0.65);
-  margin: 3rem auto;
+  background: rgba(0, 0, 0, 0.75);
   padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 10px;
   max-width: 1000px;
-  border-radius: 12px;
-  box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
-  border: 1px solid rgba(0, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
 }
 
-/* === 💠 HEADINGS WITH NEON EFFECT === */
+/* 🧠 Headings */
 h1, h2, h3 {
-  color: #00ffff;
-  text-shadow: 0 0 8px #00ffff, 0 0 2px #0ff;
-  font-weight: 700;
+  color: #ffffff;
+  text-shadow: none;
+  font-weight: bold;
   margin-top: 1rem;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
 
-/* === 🔗 GLOWING LINKS === */
+/* 🔗 Links */
 a {
-  color: #00eaff;
+  color: #00bfff;
   text-decoration: none;
-  border-bottom: 1px dotted #00eaff;
-  transition: all 0.3s ease;
+  border-bottom: 1px dashed #00bfff;
+  transition: 0.3s;
 }
-
 a:hover {
-  background: #00eaff;
+  background: #00bfff;
   color: #000;
-  padding: 2px 6px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px #00eaff;
+  padding: 1px 4px;
+  border-radius: 4px;
 }
 
-/* === 📜 PARAGRAPH TEXT === */
-p {
-  line-height: 1.7;
-  font-size: 1rem;
-  color: #e0e0e0;
-}
-
-/* === 💻 CODE BLOCKS === */
+/* 💻 Code Blocks */
 code, pre {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.1);
   color: #00ffcc;
   padding: 0.4rem 0.6rem;
-  border-radius: 6px;
-  font-size: 0.95rem;
+  border-radius: 4px;
   font-family: 'Fira Code', monospace;
   display: inline-block;
 }
 
-/* === ✅ LISTS === */
+/* ✅ Lists */
 ul, ol {
   padding-left: 2rem;
   margin-bottom: 1.5rem;
 }
 
-/* === 🚀 BUTTON (if used later) === */
-button {
-  background-color: #00eaff;
-  color: black;
-  border: none;
-  padding: 0.6rem 1.2rem;
-  border-radius: 6px;
-  font-weight: bold;
-  box-shadow: 0 0 10px #00eaff;
-  cursor: pointer;
+/* ❌ Remove default theme header/margin (minima-specific fix) */
+header.site-header {
+  display: none;
 }
-
-button:hover {
-  background-color: #fff;
-  color: #000;
-}
-
