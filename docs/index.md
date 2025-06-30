@@ -1,5 +1,12 @@
 [![GitHub Pages](https://img.shields.io/badge/View-Site-green)](https://ShubhamBioIT.github.io/LeetCode-Solutions/)
 
+---
+layout: default
+---
+
+<link rel="stylesheet" href="assets/css/custom.css">
+
+
 # 🧠 LeetCode Solutions in Python
 
 Welcome to my personal **LeetCode solutions repository**, where I’ve curated Python solutions to popular algorithm and data structure problems for **reference and learning purposes**.
