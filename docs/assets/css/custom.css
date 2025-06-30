@@ -1,0 +1,18 @@
+title: "LeetCode Solutions in Python"
+description: "A curated library of Python LeetCode solutions — for reference and learning."
+theme: minima
+
+# Include the custom CSS
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+sass:
+  style: compressed
+
+# Load the stylesheet
+include:
+  - assets/css/custom.css
