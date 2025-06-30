@@ -1,15 +1,63 @@
+/* 🌌 Robotic Animated Background */
 body {
-  background: url('https://images.unsplash.com/photo-1611911470128-4e40b90703cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+  background: url('https://cutewallpaper.org/21/dark-futuristic-wallpaper/Futuristic-Background-Looping-Background-Motion-Graphics-.gif') no-repeat center center fixed;
   background-size: cover;
-  background-attachment: fixed;
-  color: #00ffcc;
+  margin: 0;
   font-family: 'Courier New', Courier, monospace;
+  color: #ffffff;
 }
 
-a {
-  color: #00ffcc;
+/* 🪟 Glassy Card Container */
+.main-content, .wrapper, .container {
+  background: rgba(0, 0, 0, 0.65);  /* semi-transparent black */
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 900px;
+  box-shadow: 0 0 20px rgba(0,255,255,0.2);
 }
 
+/* 🎯 Headings */
 h1, h2, h3 {
-  text-shadow: 1px 1px 2px #000;
+  color: #00ffff;
+  text-shadow: 1px 1px 4px rgba(0,255,255,0.5);
+  font-weight: bold;
 }
+
+/* 🌟 Links */
+a {
+  color: #00ffee;
+  text-decoration: none;
+  border-bottom: 1px dashed #00ffee;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff;
+  background: #00ffee;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* 📋 Code Blocks */
+code, pre {
+  background: rgba(255, 255, 255, 0.1);
+  color: #00ff99;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  font-family: 'Fira Code', monospace;
+}
+
+/* ✅ Lists */
+ul, ol {
+  padding-left: 2rem;
+}
+
+/* ✅ Footer (Optional if added) */
+footer {
+  text-align: center;
+  color: #888;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+}
+
