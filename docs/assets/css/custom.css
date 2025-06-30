@@ -55,7 +55,3 @@ ul, ol {
   margin-bottom: 1.5rem;
 }
 
-/* ❌ Remove default theme header/margin (minima-specific fix) */
-header.site-header {
-  display: none;
-}
