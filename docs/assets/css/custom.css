@@ -1,18 +1,15 @@
-title: "LeetCode Solutions in Python"
-description: "A curated library of Python LeetCode solutions — for reference and learning."
-theme: minima
+body {
+  background: url('https://images.unsplash.com/photo-1611911470128-4e40b90703cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #00ffcc;
+  font-family: 'Courier New', Courier, monospace;
+}
 
-# Include the custom CSS
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: default
+a {
+  color: #00ffcc;
+}
 
-sass:
-  style: compressed
-
-# Load the stylesheet
-include:
-  - assets/css/custom.css
+h1, h2, h3 {
+  text-shadow: 1px 1px 2px #000;
+}
