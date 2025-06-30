@@ -1,9 +1,4 @@
 [![GitHub Pages](https://img.shields.io/badge/View-Site-green)](https://ShubhamBioIT.github.io/LeetCode-Solutions/)
-
----
-layout: default
----
-
 <link rel="stylesheet" href="assets/css/custom.css">
 
 
