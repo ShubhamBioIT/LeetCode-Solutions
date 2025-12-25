@@ -11,6 +11,7 @@ These files help me study and improve my problem-solving skills, coding efficien
 - ✅ Categorized Python solutions to common LeetCode problems  
 - ✅ Real-world coding patterns and optimizations  
 - ✅ Reference examples for **dynamic programming, recursion, backtracking, and more**
+- ✅ **[HTML Web Designing Project](./HTML-Web-Designing-Project/)** - A modern, responsive web design showcase
 
 ---
 
@@ -33,6 +34,22 @@ This repository helps me:
 - Practice clean and structured Python coding
 - Revisit tricky problems with optimized solutions
 - Track my personal progress in algorithmic thinking
+- Showcase web development skills through practical projects
+
+---
+
+## 🎨 Projects
+
+### [HTML Web Designing Project](./HTML-Web-Designing-Project/)
+
+A complete web design project featuring:
+- Modern, responsive design with HTML5, CSS3, and JavaScript
+- Smooth animations and interactive features
+- Mobile-first approach with full responsiveness
+- Clean, semantic code structure
+- Contact form with validation
+
+**[View Project →](./HTML-Web-Designing-Project/)**
 
 ---
 
