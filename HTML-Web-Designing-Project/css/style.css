@@ -45,6 +45,7 @@ header {
 }
 
 .logo h1 {
+    color: var(--primary-color); /* Fallback for browsers that don't support background-clip */
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
